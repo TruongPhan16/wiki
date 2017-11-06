@@ -3,9 +3,9 @@
 ## Nguyên tắc cơ bản khi sử dụng OOCSS:
 
 ### Tách biệt giữa cấu trúc và giao diện:
-1. không viết các thuộc tính liên quan tới cấu trúc (position, float, margin, padding….), giao diện(background, border, color…) vào 1 class.
-2. Lên kế hoạch trước khi viết mã CSS cho 1 trang: Viết class riêng cho các yếu tố có tính chất lặp lại để có thể  tái sử dụng lại.
-3. VD:
+* Kkhông viết các thuộc tính liên quan tới cấu trúc (position, float, margin, padding….), giao diện(background, border, color…) vào 1 class.
+* Lên kế hoạch trước khi viết mã CSS cho 1 trang: Viết class riêng cho các yếu tố có tính chất lặp lại để có thể  tái sử dụng lại.
+* VD:
 ```
 css.box1 {
   width: 25%;
@@ -85,7 +85,7 @@ Sau đó sử dụng CSS như sau:
 ra khỏi sidebar và footer (vai trò là container) và tạo class riêng cho nó để tái sử dụng.
 
 ## Quy tắc sử dụng selector:
-1. Tránh sử dụng ID.
-2. Tránh sử dung selector hậu duệ .(VD: .footer h3)
-3. Không gắn class với 1 element.(VD: div.title)
-4. Trừ các trường hợp đặc biệt thì tránh dùng !important
+* Tránh sử dụng ID.
+* Tránh sử dung selector hậu duệ .(VD: .footer h3)
+* Không gắn class với 1 element.(VD: div.title)
+* Trừ các trường hợp đặc biệt thì tránh dùng !important
